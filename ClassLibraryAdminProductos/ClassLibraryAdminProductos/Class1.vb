@@ -82,7 +82,7 @@ Public Class AdministrarProductos
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.Add(New SqlParameter("@ID_Producto", MstrID_PRODUCTO))
         cnx.Open()
-        cmd.ExecuteNonQuery() ' Ejecutar el comando para eliminar el producto del inventario
+        cmd.ExecuteNonQuery()
         cnx.Close()
         Return True
     End Function

@@ -41,23 +41,19 @@ Public Class frmAdmiCortes
     End Sub
 
     Private Sub btnAgregar_Click(sender As Object, e As EventArgs) Handles btnAgregar.Click
-        Dim Consultar As New ClassLibraryAdminCortes.AdministrarCortes
-        With Consultar
+        Dim Agregar As New ClassLibraryAdminCortes.AdministrarCortes
+        With Agregar
             .ID_CORTE = txtIdCorte.Text
-            If Consultar.Consulta() Then
-                txtNombre.Text = .NOMBRE
-                txtPrecio.Text = .PRECIO
-                If Not IsNothing(.IMG_CORTE) Then
-                    Dim ms As New System.IO.MemoryStream(.IMG_CORTE)
-                    PictureBox1.Image = Image.FromStream(ms)
-                Else
-                    PictureBox1.Image = Nothing
-                End If
-            Else
-                MessageBox.Show("No se encontró el corte con el ID proporcionado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-
+            .NOMBRE = txtNombre.Text
+            .PRECIO = txtPrecio.Text
+            If Not String.IsNullOrEmpty(PictureBox1.ImageLocation) Then
+                .SetFotoFromPath(PictureBox1.ImageLocation)
             End If
         End With
+        If Agregar.Alta Then
+            limpiar()
+        End If
+
     End Sub
 
     Private Sub btnEliminar_Click(sender As Object, e As EventArgs) Handles btnEliminar.Click

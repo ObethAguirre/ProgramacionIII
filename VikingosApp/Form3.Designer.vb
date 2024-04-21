@@ -54,7 +54,7 @@ Partial Class frmAgenda
         '
         Me.Label.AutoSize = True
         Me.Label.Font = New System.Drawing.Font("Modern No. 20", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label.Location = New System.Drawing.Point(82, 202)
+        Me.Label.Location = New System.Drawing.Point(73, 274)
         Me.Label.Name = "Label"
         Me.Label.Size = New System.Drawing.Size(122, 30)
         Me.Label.TabIndex = 4
@@ -64,7 +64,7 @@ Partial Class frmAgenda
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Modern No. 20", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(82, 272)
+        Me.Label3.Location = New System.Drawing.Point(73, 344)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(84, 30)
         Me.Label3.TabIndex = 5
@@ -74,7 +74,7 @@ Partial Class frmAgenda
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Modern No. 20", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(82, 337)
+        Me.Label4.Location = New System.Drawing.Point(73, 409)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(93, 30)
         Me.Label4.TabIndex = 6
@@ -84,7 +84,7 @@ Partial Class frmAgenda
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Modern No. 20", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(68, 407)
+        Me.Label5.Location = New System.Drawing.Point(59, 479)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(136, 30)
         Me.Label5.TabIndex = 7
@@ -94,7 +94,7 @@ Partial Class frmAgenda
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Modern No. 20", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(82, 482)
+        Me.Label6.Location = New System.Drawing.Point(74, 214)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(92, 30)
         Me.Label6.TabIndex = 8
@@ -104,7 +104,7 @@ Partial Class frmAgenda
         '
         Me.LabelPrecio.AutoSize = True
         Me.LabelPrecio.Font = New System.Drawing.Font("Modern No. 20", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelPrecio.Location = New System.Drawing.Point(589, 439)
+        Me.LabelPrecio.Location = New System.Drawing.Point(589, 452)
         Me.LabelPrecio.Name = "LabelPrecio"
         Me.LabelPrecio.Size = New System.Drawing.Size(92, 30)
         Me.LabelPrecio.TabIndex = 9
@@ -120,21 +120,21 @@ Partial Class frmAgenda
         '
         'txtNombre
         '
-        Me.txtNombre.Location = New System.Drawing.Point(210, 209)
+        Me.txtNombre.Location = New System.Drawing.Point(201, 281)
         Me.txtNombre.Name = "txtNombre"
         Me.txtNombre.Size = New System.Drawing.Size(249, 22)
         Me.txtNombre.TabIndex = 11
         '
         'txtHora
         '
-        Me.txtHora.Location = New System.Drawing.Point(210, 272)
+        Me.txtHora.Location = New System.Drawing.Point(201, 344)
         Me.txtHora.Name = "txtHora"
         Me.txtHora.Size = New System.Drawing.Size(249, 22)
         Me.txtHora.TabIndex = 12
         '
         'txtHoraFin
         '
-        Me.txtHoraFin.Location = New System.Drawing.Point(210, 414)
+        Me.txtHoraFin.Location = New System.Drawing.Point(201, 486)
         Me.txtHoraFin.Name = "txtHoraFin"
         Me.txtHoraFin.Size = New System.Drawing.Size(249, 22)
         Me.txtHoraFin.TabIndex = 14
@@ -142,7 +142,7 @@ Partial Class frmAgenda
         'dateFech
         '
         Me.dateFech.CalendarFont = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dateFech.Location = New System.Drawing.Point(210, 342)
+        Me.dateFech.Location = New System.Drawing.Point(201, 414)
         Me.dateFech.Name = "dateFech"
         Me.dateFech.Size = New System.Drawing.Size(249, 22)
         Me.dateFech.TabIndex = 16
@@ -176,8 +176,7 @@ Partial Class frmAgenda
         'cmbCorte
         '
         Me.cmbCorte.FormattingEnabled = True
-        Me.cmbCorte.Items.AddRange(New Object() {"1", "2", "3", "4"})
-        Me.cmbCorte.Location = New System.Drawing.Point(210, 482)
+        Me.cmbCorte.Location = New System.Drawing.Point(202, 214)
         Me.cmbCorte.Name = "cmbCorte"
         Me.cmbCorte.Size = New System.Drawing.Size(249, 24)
         Me.cmbCorte.TabIndex = 19

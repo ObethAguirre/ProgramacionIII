@@ -55,9 +55,16 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\ClassLibraryAdminProductos\ClassLibraryAdminProductos\bin\Debug\ClassLibraryAdminProductos.dll</HintPath>
     </Reference>
+    <Reference Include="ClassLibraryAgenda">
+      <HintPath>..\ClassLibraryAgenda\ClassLibraryAgenda\bin\Debug\ClassLibraryAgenda.dll</HintPath>
+    </Reference>
     <Reference Include="ClassLibraryHistVentas, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\ClassLibraryHistVentas\ClassLibraryHistVentas\bin\Debug\ClassLibraryHistVentas.dll</HintPath>
+    </Reference>
+    <Reference Include="ClassLibraryRegVentas, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ClassLibraryRegVentas\ClassLibraryRegVentas\bin\Debug\ClassLibraryRegVentas.dll</HintPath>
     </Reference>
     <Reference Include="ClassLibraryVikingosApp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

@@ -36,9 +36,9 @@ Partial Class frmVentas
         Me.txtPrecio = New System.Windows.Forms.TextBox()
         Me.lblPrecio = New System.Windows.Forms.Label()
         Me.lblFecha = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.BtnRegistrar = New System.Windows.Forms.Button()
         Me.btnVolver = New System.Windows.Forms.Button()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.SuspendLayout()
         '
         'lblTitulo
@@ -163,13 +163,6 @@ Partial Class frmVentas
         Me.lblFecha.TabIndex = 66
         Me.lblFecha.Text = "Fecha:"
         '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(515, 487)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(393, 22)
-        Me.DateTimePicker1.TabIndex = 67
-        '
         'BtnRegistrar
         '
         Me.BtnRegistrar.BackColor = System.Drawing.Color.SaddleBrown
@@ -196,15 +189,22 @@ Partial Class frmVentas
         Me.btnVolver.Text = "Volver"
         Me.btnVolver.UseVisualStyleBackColor = False
         '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(515, 492)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(393, 22)
+        Me.DateTimePicker1.TabIndex = 71
+        '
         'frmVentas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Peru
         Me.ClientSize = New System.Drawing.Size(1032, 713)
+        Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.BtnRegistrar)
         Me.Controls.Add(Me.btnVolver)
-        Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.lblFecha)
         Me.Controls.Add(Me.txtPrecio)
         Me.Controls.Add(Me.lblPrecio)
@@ -240,7 +240,7 @@ Partial Class frmVentas
     Friend WithEvents txtPrecio As TextBox
     Friend WithEvents lblPrecio As Label
     Friend WithEvents lblFecha As Label
-    Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents BtnRegistrar As Button
     Friend WithEvents btnVolver As Button
+    Friend WithEvents DateTimePicker1 As DateTimePicker
 End Class
