@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34407.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VikingosApp", "..\..\source\repos\VikingosApp\VikingosApp.vbproj", "{95CD8A8F-5D41-4DD6-BB0D-D452C9FA8250}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VikingosApp", "VikingosApp\VikingosApp.vbproj", "{95CD8A8F-5D41-4DD6-BB0D-D452C9FA8250}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
